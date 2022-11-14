@@ -1,0 +1,9 @@
+<h1> Stupid Coaching </h1>
+
+<form action="answer" method="get" data-turbo="false">
+  <input type="text" name="input" value="<%= params[:input] %>" placeholder="What do you want to ask?">
+  <input type="submit" value="Ask!">
+</form>
+
+<%# the method attribute holds the HTTP verb (GET by default)
+# the action attribute holds the url of the request it triggers on submit %>
